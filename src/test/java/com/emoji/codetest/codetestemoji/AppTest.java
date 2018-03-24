@@ -48,8 +48,8 @@ public class AppTest
     	RestAssured.baseURI ="https://sand-api.emogi.com/v1";
     	RequestSpecification request = RestAssured.given();
     	System.out.println(Paths.get("."));
-   		String content = new String(Files.readAllBytes(Paths.get("payload.json")));
-    	// Add a header stating the Request body is a JSON
+   		String content = new String(Files.readAllBytes(Paths.get("src/test/java/payload.json")));
+    	// Add a header stating the Request body is a JSONs
     	request.header("Content-Type", "application/json");
     	request.header("Authorization", "*");
     	request.header("Emogi-id", "*");
