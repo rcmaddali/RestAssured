@@ -1,0 +1,14 @@
+{
+  "device_id_type": "idfa",
+  "device_id": "BAC9BA51-4C51-45C8-8091-3F6890A21A70",
+  "app_version": "1.1",
+  "country": "US",
+  "q": "america",
+  "offset": 0,
+  "limit": 20,
+  "locale": "en_US",
+  "tz_offset": -5,
+  "gender": "m",
+  "age": "21-24",
+  "geo": "40.7506, 73.9935"
+}
